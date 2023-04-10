@@ -84,3 +84,38 @@ img:not(.gym-photo){
     color: white;
     padding: 10px;
 }
+
+/* adding style */
+
+
+
+.links{
+    display: flex;
+    gap: 10px;
+
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
