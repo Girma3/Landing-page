@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    align-items: center;
+}
+
+img:not(.gym-photo){
+    max-width: 200px;
+    max-height: 200px;
+    
+    border: 2px;
+    border-radius: 25px;
+}
+
+.gym-photo{
+    width: 400px;
+    height: 200px;
+}
+
+.header, .footer{
+    background-color: #1f2937;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-text, .links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.button1, .button2{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    
+}
+
+.join{
+    background-color: #3882f6;
+}
+.button1{
+    border: none;
+}
+
+.button2{
+    border: solid white;
+    }
+
+.information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.info{
+    max-width: 200px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-source{
+    font-weight: bolder;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
